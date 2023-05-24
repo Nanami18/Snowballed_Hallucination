@@ -1,12 +1,24 @@
-# Snowballed_Hallucination
-
-paper: https://ofir.io/snowballed_hallucination.pdf
-
-How Language Model Hallucinations Can Snowball
-
+# How Language Model Hallucinations Can Snowball
 Muru Zhang, Ofir Press, William Merrill, Alisa Liu, Noah A. Smith
 
-the answers for each dataset are either always 'yes' or 'no'
-* 'no' for the flights dataset
-* 'yes' for the prime dataset, all the numbers are prime
-* 'no' for the senator dataset, no senator satisfy both requirements (from a specific state and went to a specific college)
+Paper: https://arxiv.org/abs/2305.13534
+
+
+
+The answers for each dataset are either always 'yes' or 'no':
+* 'no' for the flights dataset (there is never a sequence of connecting flights)
+* 'yes' for the prime dataset (all the numbers are prime)
+* 'no' for the senator dataset (no senator satisfies both requirements- being from a specific state and having gone to a specific college)
+
+
+If you use our datasets in your work please cite:
+```
+@misc{zhang2023language,
+      title={How Language Model Hallucinations Can Snowball}, 
+      author={Muru Zhang and Ofir Press and William Merrill and Alisa Liu and Noah A. Smith},
+      year={2023},
+      eprint={2305.13534},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
