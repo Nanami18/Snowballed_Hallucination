@@ -3,7 +3,7 @@ Muru Zhang, Ofir Press, William Merrill, Alisa Liu, Noah A. Smith
 
 Paper: https://arxiv.org/abs/2305.13534
 
-
+**NOTICE: If you downloaded this dataset before the 27th of May 2023 please re-download it, as the previously-uploaded flights dataset had an issue.**
 
 The answers for each dataset are either always 'yes' or 'no':
 * 'no' for the flights dataset (there is never a sequence of connecting flights)
